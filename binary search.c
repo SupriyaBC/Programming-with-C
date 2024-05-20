@@ -64,3 +64,39 @@ int main() {
 
     return 0;
 }
+
+
+
+# Random Number Sorting and Binary Search Program
+
+## Overview
+
+This C program generates a specified number of random integers, sorts them using the bubble sort algorithm, and then performs a binary search to find a user-specified integer. The program also measures and prints the time taken to perform these operations.
+
+## Features
+
+- Generates random integers between 1 and 1000.
+- Sorts the generated integers using the bubble sort algorithm.
+- Performs binary search to find a user-specified integer.
+- Measures and prints the time taken for the operations.
+
+## How to Use
+
+1. Compile the program using a C compiler.
+2. Run the executable file.
+3. Enter the number of elements to generate.
+4. The program will generate random numbers, sort them, and ask for a key to search.
+5. Enter the key to search for in the sorted array.
+
+## Example
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    // Program code here
+    return 0;
+}
+
