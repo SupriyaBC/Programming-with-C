@@ -48,3 +48,24 @@ You are tasked with developing a simple Employee Management System in C. The pro
    - Ensure that the program terminates gracefully after displaying the employee details.
    - Validate user inputs wherever necessary to prevent erroneous data entry.
    - Make use of functions where applicable to improve code readability and modularity.
+
+
+# Infix to Postfix Conversion using Stack
+
+This repository contains a C program that converts an infix expression to a postfix expression using a stack data structure.
+
+## Problem Statement
+
+You are tasked with developing a program in C that converts an infix expression to a postfix expression using a stack data structure. The program should accept an infix expression as input, process it, and output the equivalent postfix expression.
+
+### Requirements
+
+1. **Input**: Your program should prompt the user to enter an infix expression.
+2. **Output**: The program should display the equivalent postfix expression derived from the input infix expression.
+3. **Operators and Operands**: The infix expression will consist of single-character operands (variables) and operators (+, -, *, /). Parentheses may also be present in the expression.
+4. **Stack Implementation**: Utilize a stack data structure to aid in the conversion process. Implement stack operations for push and pop.
+5. **Operator Precedence**: The program should consider operator precedence while converting infix to postfix. The precedence order should be as follows:
+   - Parentheses '()' have the highest precedence.
+   - Multiplication (*) and division (/) have higher precedence than addition (+) and subtraction (-).
+   - Operators with the same precedence should be evaluated from left to right.
+6. **Functionality**: Ensure that your program correctly handles infix expressions of varying complexities, including multiple operators and parentheses.
