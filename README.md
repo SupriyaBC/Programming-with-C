@@ -49,6 +49,7 @@ You are tasked with developing a simple Employee Management System in C. The pro
    - Validate user inputs wherever necessary to prevent erroneous data entry.
    - Make use of functions where applicable to improve code readability and modularity.
 
+<<<<<<< HEAD
 
 # Infix to Postfix Conversion using Stack
 
@@ -69,3 +70,26 @@ You are tasked with developing a program in C that converts an infix expression 
    - Multiplication (*) and division (/) have higher precedence than addition (+) and subtraction (-).
    - Operators with the same precedence should be evaluated from left to right.
 6. **Functionality**: Ensure that your program correctly handles infix expressions of varying complexities, including multiple operators and parentheses.
+=======
+# Basic Queue Implementation in C
+
+This repository contains a simple C program that implements a basic queue data structure using an array.
+
+## Problem Statement
+
+You are tasked with implementing a basic queue data structure in C. The queue should support the following operations:
+
+1. **Insertion**: Allows inserting elements into the queue.
+2. **Display**: Displays the elements currently present in the queue.
+
+### Requirements
+
+1. **Queue Implementation**: Implement a queue using an array with a fixed size.
+2. **Insertion Operation (`insert()`)**: 
+   - Prompt the user to enter an integer element to insert into the queue.
+   - Check for queue overflow condition.
+   - Insert the element at the rear end of the queue.
+3. **Display Operation (`display()`)**:
+   - Display the elements currently present in the queue.
+   - Check for an empty queue condition.
+>>>>>>> origin/main
